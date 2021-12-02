@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header img{
+    float:right ;
+    width: 7%;
+}
+ header h2{
+     float: right;
+ }
+
+ header p{
+    float: right;
+    display: inline;
+    position:absolute ;
+    top: 26px;
+    right: 131px;
+ }
+
+header a{
+    float: left;
+    text-decoration: none;
+    position:absolute ;
+    top: 26px;
+    left: 3px;
+}
+
+nav img{
+    float: right;
+    width: 150px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    margin-right: -296px;
+    margin-top: 104px;
+
+}
+nav  ul  {
+    float: right;
+    display: inline;
+    list-style-type: none;
+
+}
+
+nav  li  {
+    display: inline-block;
+    width: 90px;
+    margin-left: 0px;
+    margin-top: 80px;
+    background-color: #f2f2f2;
+}
+nav a{
+    float: right;
+    text-decoration: none;
+    height: 50px;
+    margin-right: -112px;
+    margin-top: 104px;
+    position: relative;
+    top: -46px;
+  
+
+}
+
