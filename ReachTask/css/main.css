@@ -26,15 +26,18 @@ header a{
     left: 3px;
 }
 
+
 nav img{
     float: right;
-    width: 150px;
+    width: 194px;
     padding: 15px;
     display: inline-block;
     vertical-align: top;
     height: 50px;
     margin-right: -296px;
-    margin-top: 104px;
+    margin-top: 127px;
+    background-color: #f2f2f2;
+
 
 }
 nav  ul  {
@@ -49,17 +52,24 @@ nav  li  {
     width: 90px;
     margin-left: 0px;
     margin-top: 80px;
-    background-color: #f2f2f2;
 }
 nav a{
     float: right;
     text-decoration: none;
     height: 50px;
     margin-right: -112px;
-    margin-top: 104px;
+    margin-top: 100px;
     position: relative;
-    top: -46px;
+    top: -23px;
+    background-color: #f2f2f2;
+    width: 170px;
+
   
 
 }
+
+/* nav li:hover {
+    background-color: #CCCCCC;
+
+} */
 
