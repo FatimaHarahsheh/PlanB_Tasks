@@ -1,75 +1,69 @@
-*{
+* {
     margin: 0 auto;
     padding: 0 auto;
 }
-header img{
-    float:right ;
+
+header {
+    display: flex;
+}
+header img {
+    float: right;
     width: 7%;
 }
- header h2{
-     float: right;
- }
+header h2 {
+    float: right;
+}
 
- header p{
+header p {
     float: right;
     display: inline;
-    position:absolute ;
+    position: absolute;
     top: 26px;
-    right: 131px;
- }
+    right: 370px;
+}
 
-header a{
-    float: left;
+header a {
     text-decoration: none;
-    position:absolute ;
-    top: 26px;
-    left: 3px;
+    position: absolute;
+    top: 13px;
+    left: 745px;
 }
 
-
-nav img{
-    float: right;
-    width: 194px;
-    padding: 15px;
-    display: inline-block;
-    vertical-align: top;
+.naviclass  {
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(160, 154, 147);
     height: 50px;
-    margin-right: -296px;
-    margin-top: 127px;
-    background-color: #f2f2f2;
-
-
+    width:auto;
+    
 }
-nav  ul  {
-    float: right;
-    display: inline;
+
+.naviclass img{
+    width: 150px;
+    margin-right: 305px;
+}
+
+.naviclass ul{
     list-style-type: none;
+    margin-right: 450px;
+    margin-top:  -35px ;
+    
 
 }
 
-nav  li  {
-    display: inline-block;
-    width: 90px;
-    margin-left: 0px;
-    margin-top: 80px;
+.naviclass ul li  {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin-left:50px;
+
 }
-nav a{
-    float: right;
+.naviclass a{
     text-decoration: none;
-    height: 50px;
-    margin-right: -112px;
-    margin-top: 100px;
-    position: relative;
-    top: -23px;
-    background-color: #f2f2f2;
-    width: 170px;
 
-  
+
 
 }
-
-/* nav li:hover {
-    background-color: #CCCCCC;
-
-} */
-
+.naviclass  ul :hover a {
+    background-color: rgb(250, 250, 250) ;
+    padding: 20px;
+}
