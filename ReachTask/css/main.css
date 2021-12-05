@@ -24,9 +24,9 @@ header p {
 
 header a {
     text-decoration: none;
-    position: absolute;
+    position: relative;
     top: 13px;
-    left: 745px;
+    left: 450px;
 }
 
 .naviclass  {
@@ -67,3 +67,248 @@ header a {
     background-color: rgb(250, 250, 250) ;
     padding: 20px;
 }
+
+/* 
+#this space for slider 
+*/
+
+article h2{
+    text-align: center;
+    color: blue;
+    font-size: 3ch;
+    margin-top: 20px;
+}
+article p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2ch;
+}
+
+article  p span{
+    font-size:2ch ;
+
+}
+
+
+
+.news{
+    margin-right: 418px;
+    margin-left: -72px;
+    width: 82%;
+}
+
+.news img {
+    width: 60px;
+    height:40px;
+    margin:19px 36px -11px 0px;
+    background-color: blue;
+
+
+}
+
+
+
+.news h2{
+    text-align:right;
+    margin: -32px 35px  0px 1098px;
+    background-color: gainsboro;
+    padding: 9px 70px 2px 0px;
+}
+.news h2 span{
+    margin-right:152px;
+}
+.newsinfo{
+    margin: 0px 454px 0px 1px;
+    display: flex;
+    background-color: thistle;
+    width: 441px;
+
+}
+
+.newsinfo img{
+    width:150px ;
+    height:90px ;
+    margin:3px 0px 4px 5px;
+    
+}
+
+.newdetailes h3{
+    display: inline-block;
+}
+
+hr{
+    border-top: 2px solid rgb(25, 0, 255);
+    width:23%; 
+    margin-left:76.4% !important;
+    margin-right: 24% !important;
+    
+
+}
+
+aside.thelastres{
+    float: left;
+    margin-top: -456px;
+    margin-left: -457px;
+}
+
+.thelastres a{
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 23px;
+}
+
+    #css {
+        color: yellow;
+        font-family: 'Odibee Sans', cursive;
+    }
+    
+    .carousel-wrapper {
+        height: 400px;
+        position: relative;
+        width: 800px;
+        display: block;
+        margin: 50px auto ;
+        border: 2px solid black;
+    }
+    
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 25px 50px;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow{
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 12px;
+    }
+    .arrow-prev {
+        left: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+    
+    }
+    .arrow-next {
+        right: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    
+    [id^= "item"] {
+        display: none;
+    }
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('../img/img1.jpg');
+        background-size: cover;
+    }
+    .item-2 {
+        background: url('../img/img2.jpg');
+        background-size: cover;
+    }
+    .item-3 {
+        background: url('../img/img3.jpg');
+        background-size: cover;
+    }
+    
+    *:target ~ .item-1{
+        opacity: 0;
+    }
+    #item-1:target ~ .item-1 {
+        opacity: 1;
+    
+    }
+    #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+        z-index: 3;
+        opacity: 1;
+    } 
+
+
+    #css {
+        color: yellow;
+        font-family: 'Odibee Sans', cursive;
+    }
+    
+    .carousel-wrapper {
+        height: 400px;
+        position: relative;
+        width: 800px;
+        display: block;
+        margin: 50px auto ;
+        border: 2px solid black;
+    }
+    
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 25px 50px;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow{
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 12px;
+    }
+    .arrow-prev {
+        left: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+    
+    }
+    .arrow-next {
+        right: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    
+    [id^= "item"] {
+        display: none;
+    }
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('../img/img1.jpg');
+        background-size: cover;
+    }
+    .item-2 {
+        background: url('../img/img2.jpg');
+        background-size: cover;
+    }
+    .item-3 {
+        background: url('../img/img3.jpg');
+        background-size: cover;
+    }
+    
+    *:target ~ .item-1{
+        opacity: 0;
+    }
+    #item-1:target ~ .item-1 {
+        opacity: 1;
+    
+    }
+    #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+        z-index: 3;
+        opacity: 1;
+    } 
+
+
+
+
