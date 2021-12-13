@@ -142,7 +142,7 @@ nav .top-navi ul li a:hover{
 
 .top-navi li .status{
     background-color: #e9e9e9;
-    padding:48% 31% ;
+    padding: 47% 32%;
     color: #0189d6;
 }
 section {
@@ -437,8 +437,9 @@ margin-right: 18.1%;
     }
     .slider-container2 img
     {
-      width: 10%;
-      margin-right:15%;
+        width: 19%;
+        margin-right: 14%;
+        margin-top: -2%;
     }
     .slider-container2  .slider {
         width: 64%;
@@ -565,7 +566,8 @@ footer .cont{
 
 }
 .links{
-    margin-right: 10%;
+    margin-right: 14%;
+    margin-top: 2%;
 }
 hr{
     width: 80%;
@@ -574,20 +576,21 @@ hr{
 }
 footer .icons{
     display: inline;
-    margin-right: 50%;
-    
-    width: 500%;
+    margin-right: 41%;
+    /* width: 500%; */
 }
 footer .icons img{
     margin-top: 2%;
     margin-bottom: 2.5%;
-    background-color: white;
-    padding: 2px;
+    padding: 3px;
     width: 3%;
-    
+    margin-right: 1%;
+    margin-left: 0%;
 }
+    
+
 footer .icons img:hover{
-    opacity: 0.5;
+    opacity:0.9;
     background: orange;
 }
 footer .ending{
@@ -601,12 +604,12 @@ footer .ending .images{
     margin-right: 66%;
 }
 footer .ending .images img{
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     width: 20%;
     padding: 10px;
     background: white;
-    border-radius: 10%;
-    margin-right: 2%;
+    border-radius: 7%;
+    margin-right: 1%;
 }
 footer a{
     text-decoration: none;
@@ -623,6 +626,8 @@ footer li{
 }
 footer .ending .text{
     margin-top: 1%;
-    margin-right: 9%;
+    margin-right: 11%;
     color: #5ec5ed;
+    width: 76%;
+    font-size: 14px;
 }
