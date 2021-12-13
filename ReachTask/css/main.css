@@ -481,13 +481,14 @@ margin-right: 18.1%;
     .slider-container2  .slide2 a {
     background: none;
     border: none;
+   
     }
 
     .slider-container2  a.slide2__prev,
     .slider::before {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
-    left: 5%;
+    left: 5%; 
     }
 
     .slider-container2  a.slide2__next,
@@ -505,7 +506,7 @@ margin-right: 18.1%;
     top: 48%;
     width: 35px;
     height: 35px;
-    border: solid black;
+    border: solid rgb(105, 94, 94);
     border-width: 0 4px 4px 0;
     padding: 3px;
     box-sizing: border-box;
