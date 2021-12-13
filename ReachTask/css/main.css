@@ -444,7 +444,7 @@ margin-right: 18.1%;
     .slider-container2  .slider {
         width: 64%;
         height: 281px;
-        margin: 1px;
+        margin: 0px;
         text-align: center;
         overflow: hidden;
         position: relative;
