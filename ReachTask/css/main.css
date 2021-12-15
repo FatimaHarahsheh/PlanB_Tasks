@@ -25,16 +25,19 @@ header{
 }
 
 .topheader-logo img{
-    width:5%;
-    margin-right:40%;
+    width: 3.5%;
+    margin-right: 41%;
+    margin-top: 1%;
 }
+
 .topheader-logo h4{
-    margin-top: -5%;
-    margin-right: 46%;
+    margin-top: -4%;
+    margin-right: 45%;
 }
 
 .topheader-logo p{
-    margin-right:46%;
+    margin-right: 45%;
+    font-size: 12px;
 }
 .transferlanguage{
     margin-top:1%;
@@ -102,12 +105,12 @@ nav{
     width: 100%;
     background-color:#f2f2f2 ;
     margin: 0%;
-    margin-top:0.5%;
+    margin-top:0.9%;
 }
 nav .reach-logo img{
-width:45%;
-margin-right: 108%;
-margin-top: 2%;
+    width: 45%;
+    margin-right: 124%;
+    margin-top: 4%;
 }
 
 nav .top-navi{
@@ -142,7 +145,7 @@ nav .top-navi ul li a:hover{
 
 .top-navi li .status{
     background-color: #e9e9e9;
-    padding: 47% 32%;
+    padding:48% 50% 47% 31%;
     color: #0189d6;
 }
 section {
@@ -258,14 +261,14 @@ input[name="r"]{
 }
 .slide .slidertyping {
     position: absolute;
-    top: 200px;
+    top: 176px;
     left: 232px;
     width: 71%;
     color: #fff;
-    font-size: 51px;
+    font-size: 55px;
     text-align: center;
+    
 }
-
 .slide .slidertyping a{
     text-decoration: none;
     background-color:#ef7f1a ;
@@ -308,14 +311,14 @@ text-align: center;
 
 #top-arti p{
     color: #575757;
-    font-size:23px;
+    font-size: 20px;
     margin-top: 1%;
     text-align: justify;
-    margin-right:18%;
+    margin-right: 25%;
 }
 aside{
     width: 100%;
-    margin-top: 2%;
+    margin-top: 6%;
     
 }
 .top-aside{
@@ -577,41 +580,26 @@ hr{
 }
 footer .icons{
     display: inline;
-    margin-right: 41%;
-    /* width: 500%; */
+    margin-right: 50%;
+    
+    width: 500%;
 }
 footer .icons img{
     margin-top: 2%;
     margin-bottom: 2.5%;
-    padding: 3px;
+    padding: 2px;
     width: 3%;
-    margin-right: 1%;
-    margin-left: 0%;
-}
     
-
+}
 footer .icons img:hover{
-    opacity:0.9;
+    opacity: 0.5;
     background: orange;
 }
 footer .ending{
     margin-top: 3%;
     width: 100%;
 }
-footer .ending img{
-    width: 5%;
-}
-footer .ending .images{
-    margin-right: 66%;
-}
-footer .ending .images img{
-    margin-bottom: 3%;
-    width: 20%;
-    padding: 10px;
-    background: white;
-    border-radius: 7%;
-    margin-right: 1%;
-}
+
 footer a{
     text-decoration: none;
     font-size: large;
@@ -627,8 +615,18 @@ footer li{
 }
 footer .ending .text{
     margin-top: 1%;
-    margin-right: 11%;
+    margin-right: 9%;
     color: #5ec5ed;
-    width: 76%;
-    font-size: 14px;
+}
+
+footer .ending .images{
+    /* width: 40%; */
+    margin-right: 68%;
+}
+footer .ending .images img{
+    margin-bottom: 10%;
+    padding: 10px;
+    background: white;
+    border-radius: 10%;
+    margin-right: 2%;
 }
