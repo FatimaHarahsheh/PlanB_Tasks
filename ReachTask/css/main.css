@@ -216,28 +216,27 @@ input[name="r"]{
 }
 .slide .slidertyping {
     position: absolute;
-    top: 176px;
-    left: 232px;
-    width: 71%;
+    top: 22%;
+    right: 31%;
+    width: 35%;
     color: #fff;
-    font-size: 55px;
+    font-size: 56px;
     text-align: center;
     
 }
-/* .slide .slidertyping a{
+.slide .slidertyping a{
     text-decoration: none;
-    background-color:#ef7f1a ;
+    background-color: #ef7f1a;
     color: #fff;
-    padding: 15px 34px;
+    padding: 17px 24px;
     border-radius: 18px;
     border: 1px solid #fff;
     font-size: 25px;
-    margin-top: 5%;
 }
 
 .slide .slidertyping a:hover{
     color: #ffc107;
-} */
+}
 
 #r1:checked ~ .s1{
         margin-left: 0;
@@ -265,10 +264,10 @@ text-align: center;
 
 #top-arti {
     color: #575757;
-    font-size: 20px;
-    margin-top: 1%;
+    font-size: 24.5px;
+    margin-top: 2%;
     text-align: justify;
-    margin-right: 25%;
+    margin-right: 18%;
 }
 aside{
     width: 100%;
@@ -290,13 +289,13 @@ width: 90%;
     color: #acacac;
     font-size: 35px;
     margin-right: 28.5%;
-    width: 10%;
-    height: 5%;
-    margin-top: -0.5%;
-    
+    margin-top: -0.4%;
 }
-.top-aside h2{
-    margin-right: 3%;
+.top-aside p{
+    margin: 1% 2%;
+    font-family: 25px;
+    font-weight: bold;
+
 }
 
 .bottom-aside{
@@ -305,8 +304,9 @@ width: 90%;
     margin-left: 3%;
 }
 .aside-item img{
-    width: 35%;
+    width: 28%;
     margin: 2%;
+    border-radius: 5%;
 }
 .aside-item{
     display: flex;
@@ -314,19 +314,18 @@ width: 90%;
     margin-bottom:  2%; 
     
 }
-
-
 .internal-aside{
     margin-right: 2%;
     margin-top: 2%;
 } 
-.internal-aside h3{
-    width: 100%;
-    font-size: 21px;
+.internal-aside  .title{
+    width: 94%;
+    font-size: 20px;
+    color: black;
 }
 .internal-aside p{
 color: #7a7a7a;
-font-size: 13px;
+font-size: 16px;
 }
 
 .internal-aside a{
@@ -336,8 +335,9 @@ font-size: 13px;
     background-color: #ef7f1a;
     text-decoration: none;
     float: left;
-    margin-top: -3%;  
-    font-size: 10px; 
+    margin-left: 3%;
+    margin-top: -4%;
+    font-size: 10px;
 }
 .container{
     display: flex;
@@ -347,10 +347,10 @@ font-size: 13px;
 }
 
 .partners{
-    background: #F2F2F2;
+    background: #f2f2f2;
     display: flex;
-width: 31%; 
-margin-right: 18.1%;
+    width: 31%; 
+    margin-right: 18.1%;
 }
 
 .partners img{
@@ -360,15 +360,16 @@ margin-right: 18.1%;
 }
 .partners span{
     position: absolute;
-    color: #F2F2F2;
+    color: #acacac;
     font-size: 35px;
     margin-right: 28.5%;
-    width: 10%;
-    height: 5%;
     margin-top: -0.4%;
 }
-.partners h2{
+.partners p{
     margin-top: 1%;
+    margin-right: 2%;
+    font-weight: bold;
+
 }
 .slider-container2 {
 
@@ -448,8 +449,8 @@ margin-right: 18.1%;
     top: 48%;
     width: 35px;
     height: 35px;
-    border: solid rgb(105, 94, 94);
-    border-width: 0 4px 4px 0;
+    border:  solid #acacac;
+    border-width: 0 8px 8px 0;
     padding: 3px;
     box-sizing: border-box;
     }
@@ -467,7 +468,7 @@ margin-right: 18.1%;
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: f6f6f6;
+    background-color: #f6f6f6;
     margin: 0 10px 0 10px;
     }
     .slider-container2   .read-article{
@@ -506,10 +507,13 @@ footer .cont{
     width: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
+    justify-content: center;
 
 }
+
+
 .links{
-    margin-right: 14%;
+    margin-right: 8%;
     margin-top: 2%;
 }
 hr{
@@ -518,16 +522,13 @@ hr{
     margin-right: 10%;
 }
 footer .icons{
-    display: inline;
-    margin-right: 50%;
-    
-    width: 500%;
+    text-align: center;
 }
 footer .icons img{
     margin-top: 2%;
     margin-bottom: 2.5%;
     padding: 2px;
-    width: 3%;
+    width: 2%;
     
 }
 footer .icons img:hover{
@@ -559,7 +560,8 @@ footer .ending .text{
 }
 
 footer .ending .images{
-    margin-right: 68%;
+    margin-right: 66%;
+    margin-top: -5%;
 }
 footer .ending .images img{
     margin-bottom: 10%;
