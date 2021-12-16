@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 header{
     border-top: 3px solid  #ff8a03;
@@ -26,17 +27,17 @@ header{
 
 .topheader-logo img{
     width: 3.5%;
-    margin-right: 41%;
+    margin-right: 44%;
     margin-top: 1%;
 }
 
 .topheader-logo h4{
     margin-top: -4%;
-    margin-right: 45%;
+    margin-right: 48%;
 }
 
 .topheader-logo p{
-    margin-right: 45%;
+    margin-right: 48%;
     font-size: 12px;
 }
 .transferlanguage{
@@ -52,53 +53,6 @@ header{
 .transferlanguage a:hover{
     color: #ff8a03; 
 }
-/* nav{
-    display: flex;
-    text-align: center;
-    width: 100%;
-    background-color: #f2f2f2;
-
-}
-nav .reach-logo img{
-    width: 37%;
-    margin-right: 40%;
-    margin-top: 2%;
-}
-
-nav .top-navi ul{
-    width:100%;
-    height: 100%;
-    display: flex;
-    list-style:none;
-    margin-top:2% ;
-    
-}
-
-
-
-nav .top-navi a{
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    color: black;
-    display: block;
-}
-
-nav .top-navi a:hover{
-    color: #f7a316;
-    
-}
-
-
-nav .status {
-    background-color:#e9e9e9;
-    height: 77%;
-}
-
-nav .status a{
-    color:#80c9e9 ;
-    
-} */
 
 nav{
     display: flex;
@@ -109,8 +63,8 @@ nav{
 }
 nav .reach-logo img{
     width: 45%;
-    margin-right: 124%;
-    margin-top: 4%;
+    margin-right: 135%;
+    margin-top: 3%;
 }
 
 nav .top-navi{
@@ -130,7 +84,7 @@ nav .top-navi ul{
 nav .top-navi ul li{
     width: auto;
     margin-top: 0%;
-    padding:25px;
+    padding: 19px 63px 0px 0px;
 }
 
 nav .top-navi ul li a {
@@ -145,8 +99,9 @@ nav .top-navi ul li a:hover{
 
 .top-navi li .status{
     background-color: #e9e9e9;
-    padding:48% 50% 47% 31%;
+    padding: 36% 60% 32%;
     color: #0189d6;
+    margin-right: -64%;
 }
 section {
     margin-top:-3.5%;
@@ -269,22 +224,20 @@ input[name="r"]{
     text-align: center;
     
 }
-.slide .slidertyping a{
+/* .slide .slidertyping a{
     text-decoration: none;
     background-color:#ef7f1a ;
-    /* border-radius: 15%; */
     color: #fff;
     padding: 15px 34px;
     border-radius: 18px;
     border: 1px solid #fff;
     font-size: 25px;
-    /* padding: 13px 9px; */
     margin-top: 5%;
 }
 
 .slide .slidertyping a:hover{
     color: #ffc107;
-}
+} */
 
 #r1:checked ~ .s1{
         margin-left: 0;
@@ -302,14 +255,15 @@ input[name="r"]{
 article{
 text-align: center;
 }
-#top-arti h2{
+
+#headatricles{
     color: #1E95D4 ; 
     margin-top: -15%;
-    font-size: 2rem;
+    font-size:35px;
 }
 
 
-#top-arti p{
+#top-arti {
     color: #575757;
     font-size: 20px;
     margin-top: 1%;
@@ -382,7 +336,6 @@ font-size: 13px;
     background-color: #ef7f1a;
     text-decoration: none;
     float: left;
-    /* margin-bottom: -6%; */
     margin-top: -3%;  
     font-size: 10px; 
 }
@@ -407,7 +360,7 @@ margin-right: 18.1%;
 }
 .partners span{
     position: absolute;
-    color: #acacac;
+    color: #F2F2F2;
     font-size: 35px;
     margin-right: 28.5%;
     width: 10%;
@@ -417,20 +370,6 @@ margin-right: 18.1%;
 .partners h2{
     margin-top: 1%;
 }
-
-/* .imgcont {
-    display: flex;
-    width: 66%;
-    margin-top: -0.3%;
-    margin-right: 18%;
-    background-color: #f6f6f6;
-    
-}
-.imgcont img{
-    width: 10%;
-    margin-right: 2%;
-} */
-
 .slider-container2 {
 
     display: flex;
@@ -475,7 +414,7 @@ margin-right: 18.1%;
     scroll-snap-align: center;
     margin-right: 0px;
     box-sizing: border-box;
-    background: #e9e9e9;
+    background: #F9F9F9;
     transform-origin: center center;
     transform: scale(1);
     }
@@ -620,7 +559,6 @@ footer .ending .text{
 }
 
 footer .ending .images{
-    /* width: 40%; */
     margin-right: 68%;
 }
 footer .ending .images img{
