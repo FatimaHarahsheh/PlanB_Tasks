@@ -181,6 +181,7 @@ section {
         margin-right: -50%;
     }
 .middle{
+
         margin-top: 20%;
         transform: translate(-50%,-50%);
     }
@@ -217,14 +218,14 @@ input[name="r"]{
 }
 .slide img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 61%;
+    
 
 }
 .slide .slidertyping {
     position: absolute;
-    top: 22%;
-    right: 31%;
+    top: 13%;
+    right: 33%;
     width: 35%;
     color: #fff;
     font-size: 56px;
@@ -289,6 +290,7 @@ aside{
 }
 .top-aside img{
     padding: 1%;
+    min-height: 10%;
     background-color: #0189D1;
     
 }
@@ -312,7 +314,10 @@ aside{
     margin-left: 3%;
 }
 .aside-item img{
-    width: 28%;
+    min-width: 28%;
+    max-width: 32%;
+    height: 100%;
+    min-height: 100%;
     margin: 2%;
     border-radius: 5%;
 }
@@ -533,17 +538,6 @@ hr{
 footer .icons{
   text-align: center;
 }
-footer .icons img{
-    margin-top: 2%;
-    margin-bottom: 2.5%;
-    padding: 7px;
-    width: 2%;
-    
-}
-footer .icons img:hover{
-    opacity: 0.5;
-    background: orange;
-}
 footer .ending{
     margin-top: 3%;
     width: 100%;
@@ -574,8 +568,18 @@ footer .ending .images{
 }
 footer .ending .images img{
     margin-bottom: 10%;
-    padding: 10px;
+    padding: 15px;
     background: white;
     border-radius: 10%;
     margin-right: 2%;
+}
+.icons a{
+    color: white;
+}
+.svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 3em;
+    margin: 1%;
+    overflow: visible;
+    vertical-align: -.125em;
 }
