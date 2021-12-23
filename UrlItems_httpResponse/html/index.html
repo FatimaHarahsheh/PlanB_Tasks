@@ -43,16 +43,16 @@
         const element = getLocation(document.getElementById('parainfo').value);
        
         var splitter = element.hostname.split('.')
-        
+        let text = 'Not Exist !'
         const rra = {
-        '  Url Element : <hr>  Protocol': element.protocol || ' Not Exist',
-        ' <br> Host Name' : element.hostname || ' Not Exist',
+        '  Url Element : <hr>  Protocol': element.protocol || text.fontcolor("red"),
+        ' <br> Host Name' : element.hostname || text.fontcolor("red"),
         // 'host name' : element.host || 'not exist',
-        ' <br> Second domain' : splitter[1] || ' Not Exist',
-        ' <br> First domain' : splitter[2] || ' Not Exist',
-        ' <br> Port' : element.port || ' Not Exist',
-        ' <br> Path name' : element.pathname || ' Not Exist',
-        ' <br> Query name' : element.search || ' Not Exist',
+        ' <br> Second domain' : splitter[1] || text.fontcolor("red"),
+        ' <br> First domain' : splitter[2] || text.fontcolor("red"),
+        ' <br> Port' : element.port || text.fontcolor("red"),
+        ' <br> Path name' : element.pathname || text.fontcolor("red"),
+        ' <br> Query name' : element.search || text.fontcolor("red"),
         }
     console.table(rra)
     for (let [key, value] of Object.entries(rra)) {
